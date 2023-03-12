@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'League Spartan', sans-serif;
+}
+/* 
+.stars {
+    background-image: url('images/icon-star.svg');
+    background-repeat: 5;
+    height: 40px;
+} */
+
+.main {
+    min-height: 100vh;
+    padding: 2rem;
+}
+/* 
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.title {
+    /* margin-top: 5rem;
+     */
+    margin: 5rem auto 2rem;
+    width: 80%;
+    text-align: center;
+    font-size: 3.5rem;
+    color: hsl(300, 43%, 22%);
+}
+
+.introduction {
+    font-size: 1.8rem;
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+}
+
+.text-box {
+    margin-bottom: 5rem;
+}
+
+.review {
+    background-color: hsl(300, 24%, 96%);
+}
+
+.stars {
+    padding: 2rem;
+    background-image: url('images/icon-star.svg');
+    /* background-repeat: repeat-x; */
+    /* width: 90px; */
+    background-position: center;
+    /* background-size: 20%; */
+}
