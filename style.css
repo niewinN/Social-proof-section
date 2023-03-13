@@ -54,7 +54,7 @@ html {
 
 .stars {
     padding: 2rem;
-    background-image: url('images/icon-star.svg');
+    /* background-image: url('images/icon-star.svg'); */
     /* background-repeat: repeat-x; */
     /* width: 90px; */
     background-position: center;
